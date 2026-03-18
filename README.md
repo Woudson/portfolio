@@ -1,16 +1,45 @@
- Sistema de monitorização de servidores com alertas automaticos usando n8n.
+# 🚨 n8n Server Monitoring & Alerts
 
-# FUNCIONALIDADES
+Sistema de monitorização de servidores com alertas automáticos, desenvolvido com n8n.
 
-* Monitorização de uptime
-* Detecção de falhas (HTTP)
-* Notificações via Gmail
-* Execução automatica de Schedule
+## 📌 Funcionalidades
 
-# Tecnologias
+* Monitorização de uptime via HTTP
+* Detecção de falhas (status != 200 ou servidor offline)
+* Sistema anti-spam (alertas apenas quando o estado muda)
+* Notificações automáticas
+
+## 🧠 Arquitetura
+
+Cron → HTTP Request → Validação → Comparação de estado → Alerta
+
+## ⚙️ Tecnologias
 
 * n8n
-* HTTP REQUEST
-* Webhooks
-* Gmail API Rest
+* APIs HTTP
+* Automação de workflows
 
+## 🚀 Como usar
+
+1. Importa o ficheiro `workflow.json` no n8n
+2. Configura as credenciais (Gmail ou Telegram)
+3. Define a URL que queres monitorar
+4. Ativa o workflow
+
+## 📸 Demonstração
+
+(Adicionar screenshot aqui)
+
+## 🧠 O que aprendi
+
+* Automação de processos
+* Tratamento de erros em workflows
+* Integração com APIs externas
+* Monitorização de sistemas
+
+## 📈 Melhorias futuras
+
+* Monitorização de múltiplos servidores
+* Integração com AWS CloudWatch
+* Dashboard de métricas
+* Alertas inteligentes com IA
