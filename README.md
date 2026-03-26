@@ -37,9 +37,3 @@ Imagens do projeto na pasta "screenshot".
 * Integração com APIs externas
 * Monitorização de sistemas
 
-## 📈 Melhorias futuras
-
-* Monitorização de múltiplos servidores
-* Integração com AWS CloudWatch
-* Dashboard de métricas
-* Alertas inteligentes com IA
