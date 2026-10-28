@@ -78,6 +78,46 @@ h1 span {
   font-weight: 600;
   font-size: 0.92rem;
 }
+.section-head{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin: 0.2rem 0 0.2rem;
+}
+.exp{
+    font-size: 2rem;
+   
+    font-style: italic;
+}
+
+.back-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 0.9rem;
+    margin: 1rem 0;
+    border: 1px solid var(--accent, #2563eb);
+    border-radius: 8px;
+    color: var(--accent, #2563eb);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.3s ease;
+}
+
+.back-home:hover {
+    background-color: var(--accent, #2563eb);
+    color: #fff;
+    transform: translateX(-3px);
+}
+
+.back-home:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
 
 .btn.primary {
   background: #f3f3f6;
@@ -193,4 +233,5 @@ h2 {
     border-right: none;
     border-bottom: 1px solid var(--line);
   }
+
 }
