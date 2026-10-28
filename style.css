@@ -138,15 +138,16 @@ h2 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.2rem;
 }
 
 .card {
   border: 1px solid var(--line);
   background: linear-gradient(180deg, var(--card), #151518);
   border-radius: 14px;
-  padding: 1rem;
+  padding: 1.5rem;
+  min-height: 100px;
 }
 
 .card h3 {
