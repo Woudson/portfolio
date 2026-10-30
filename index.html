@@ -1,76 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-PT">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Woudson Passos</title>
+    <meta
+      name="description"
+      content="Portefólio de Woudson Passos, Analista de Suporte e Infraestrutura de TI com foco em Cloud Computing, AWS, Azure e Terraform."
+    />
+    <meta name="theme-color" content="#14141a" />
+    <title>Woudson Passos | Cloud, AWS e Infraestrutura de TI</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="layout">
       <aside class="sidebar">
-
         <img
           class="profile-photo"
-          src="https://raw.githubusercontent.com/Woudson/portfolio/main/WoudTechTrend.jpg"/>
-        
-        <h1><span>Woudson Passos</span></h1>
+          src="https://raw.githubusercontent.com/Woudson/portfolio/main/WoudTechTrend.jpg"
+          alt="Fotografia de Woudson Passos"
+          width="168"
+          height="168"
+        />
+
+        <h1>Woudson Passos</h1>
         <p class="role">Cloud Computing | AWS | Azure | Terraform</p>
 
-        <div class="actions">
-          <a class="btn primary" href="#contato">Entrar em contato</a>
-          <a class="btn primary" href="./experience.html">Ver experiência</a>
-          <a class="btn primary" href="#projetos">Projetos</a>
-        </div>
+        <nav class="actions" aria-label="Navegação principal">
+          <a class="btn primary" href="#contacto">Entrar em contacto</a>
+          <a class="btn ghost" href="./experience.html">Ver experiência</a>
+          <a class="btn ghost" href="./projects.html">Ver projetos</a>
+        </nav>
 
-        <p class="quote">“Curiosity is the key to innovation.”</p>
+        <p class="quote" lang="en">“Curiosity is the key to innovation.”</p>
       </aside>
 
       <main class="content">
-        <section class="panel" id="sobre">
-  <h2>Sobre mim</h2>
+        <section class="panel" id="sobre" aria-labelledby="titulo-sobre">
+          <h2 id="titulo-sobre">Sobre mim</h2>
 
-  <p>
-    Analista de Suporte e Infraestrutura de TI com mais de 5 anos de experiência em resolução de problemas, administração de sistemas e operações de TI. Tenho experiência prática em ambientes cloud, incluindo AWS e Oracle Cloud Infrastructure (OCI), com foco em desenho, implementação e gestão de infraestruturas escaláveis. O meu background técnico abrange redes, segurança e arquiteturas de alta disponibilidade.
-  </p><br>
+          <p>
+            Analista de Suporte e Infraestrutura de TI com mais de 5 anos de
+            experiência em resolução de problemas, administração de sistemas e
+            operações de TI. Tenho experiência prática em ambientes cloud,
+            incluindo como Azure, AWS e Oracle Cloud Infrastructure (OCI), com foco no
+            desenho, implementação e gestão de infraestruturas escaláveis. O
+            meu background técnico abrange redes, segurança e arquiteturas de
+            alta disponibilidade.
+          </p>
 
-  <p><strong>Projetos cloud na AWS</strong></p>
-  <ul>
-    <li>Arquitetura de alta disponibilidade com VPC, sub-redes públicas e privadas</li>
-    <li>Configuração de Internet Gateway e NAT Gateway</li>
-    <li>Implementação de instâncias EC2 com Linux e Nginx</li>
-    <li>Segurança com Security Groups e NACLs</li>
-  </ul><br>
+          <h3>Projetos cloud na AWS</h3>
+          <ul>
+            <li>
+              Arquitetura de alta disponibilidade com VPC e sub-redes públicas
+              e privadas
+            </li>
+            <li>Configuração de Internet Gateway e NAT Gateway</li>
+            <li>Implementação de instâncias EC2 com Linux e Nginx</li>
+            <li>Segurança com Security Groups e NACLs</li>
+          </ul>
 
-  <p><strong>Outras tecnologias</strong></p>
-  <ul>
-    <li>Amazon RDS (MySQL)</li>
-    <li>Docker para deployment de aplicações</li>
-    <li>Automação de workflows com n8n</li>
-  </ul><br>
+          <h3>Outras tecnologias</h3>
+          <ul>
+            <li>Amazon RDS (MySQL)</li>
+            <li>Docker para implementação de aplicações</li>
+            <li>Automação de fluxos de trabalho com n8n</li>
+          </ul>
 
-  <p><strong>Experiência profissional</strong></p>
-  <ul>
-    <li>Resolução de problemas técnicos complexos</li>
-    <li>Gestão de ambientes de TI e garantia da disponibilidade dos serviços</li>
-    <li>Monitorização com Zabbix, Active Directory, redes e ferramentas ITSM</li>
-    <li>Análise de dados e reporting com Power BI</li>
-  </ul><br>
+          <h3>Experiência profissional</h3>
+          <ul>
+            <li>Resolução de problemas técnicos complexos</li>
+            <li>
+              Gestão de ambientes de TI e garantia da disponibilidade dos
+              serviços
+            </li>
+            <li>
+              Monitorização com Zabbix, Active Directory, redes e ferramentas
+              ITSM
+            </li>
+            <li>Análise de dados e reporting com Power BI</li>
+          </ul>
 
-  <p>
-    Sou um profissional proativo, adaptável e orientado a resultados, com experiência no suporte a utilizadores em ambientes dinâmicos e colaboração com equipas internacionais. Atualmente, estou focado em evoluir a minha carreira em Cloud Engineering e DevOps, aprofundando conhecimentos em Infrastructure as Code (Terraform), automação e arquiteturas cloud escaláveis.
-  </p><br>
+          <p>
+            Sou um profissional proativo, adaptável e orientado para
+            resultados, com experiência no apoio a utilizadores em ambientes
+            dinâmicos e na colaboração com equipas internacionais.
+            Atualmente, estou focado em evoluir a minha carreira em Cloud
+            Engineering, aprofundando conhecimentos em Infrastructure
+            as Code (Terraform), automação e arquiteturas cloud escaláveis.
+          </p>
+        </section>
 
-</section>
-
-        <section class="panel" id="habilidades">
-          <h2>Habilidades</h2>
+        <section
+          class="panel"
+          id="competencias"
+          aria-labelledby="titulo-competencias"
+        >
+          <h2 id="titulo-competencias">Competências</h2>
           <div class="tags">
             <span>AWS Cloud</span>
             <span>OCI Cloud</span>
@@ -82,98 +115,35 @@
             <span>n8n</span>
             <span>ITSM</span>
             <span>Linux</span>
-            <span>Infrastructure</span>
-            <span>English</span>
-            <span>Spanish</span>
+            <span>Infraestrutura de TI</span>
+            <span>Inglês</span>
+            <span>Espanhol</span>
           </div>
         </section>
 
-        
-        
-<section class="panel" id="projetos">
-  <div class="section-head">
-    <h2>Projetos</h2>
-  </div>
-
-  <div class="cards">
-    <article class="card">
-      <h3>AWS</h3>
-      <p class="subtitle">Automação de processos financeiros</p>
-      <p>
-        Infraestrutura cloud com EC2 e RDS.<br>
-        Containerização da aplicação com Docker.<br>
-        Integração entre base de dados e APIs externas.<br>
-        Processamento em lote e cálculo dinâmico de datas de vencimento.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>AWS</h3>
-      <p class="subtitle">Arquitetura de alta disponibilidade na AWS</p>
-      <p>
-        VPC com subnets públicas e privadas em 2 Availability Zones.<br>
-        Application Load Balancer para distribuição de tráfego.<br>
-        Auto Scaling Group para elasticidade e failover automático.<br>
-        Internet Gateway, NAT Gateway e Route Tables.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>Infraestrutura &amp; Operações</h3>
-      <p class="subtitle">Substituição de infraestrutura de fibra ótica</p>
-      <p>
-        Planeamento e definição da nova topologia de rede.<br>
-        Coordenação da equipa técnica durante a implementação.<br>
-        Redução de falhas e melhoria de performance da rede.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>Infraestrutura &amp; Operações</h3>
-      <p class="subtitle">Implementação do GLPI (ITSM)</p>
-      <p>
-        Instalação, configuração e criação de fluxos de atendimento.<br>
-        Cadastro de ativos e categorias de chamados.<br>
-        Capacitação de utilizadores na adoção da ferramenta.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>Infraestrutura &amp; Operações</h3>
-      <p class="subtitle">Estruturação de escritório (cabeamento)</p>
-      <p>
-        Organização de racks e passagem de cabos.<br>
-        Identificação de pontos de rede e ligação de equipamentos.<br>
-        Infraestrutura preparada para expansão futura.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>Infraestrutura &amp; Operações</h3>
-      <p class="subtitle">Configuração de PDVs — Assaí</p>
-      <p>
-        Instalação e configuração de sistemas de PDV.<br>
-        Testes de conectividade e integração com rede.<br>
-        Entrega dentro de prazos críticos de abertura de loja.
-      </p>
-    </article>
-  </div>
-</section>
-
-        <section class="panel" id="contato">
-          <h2>Contato</h2>
+        <section class="panel" id="contacto" aria-labelledby="titulo-contacto">
+          <h2 id="titulo-contacto">Contacto</h2>
           <div class="contact-grid">
             <a href="mailto:woudsonhenrique@gmail.com">
               <strong>E-mail</strong>
               <span>woudsonhenrique@gmail.com</span>
             </a>
+            <!-- Verifique este número: tem um dígito a mais do que o habitual. -->
             <a href="tel:+55119569043665">
-              <strong>Telefone principal</strong>
+              <strong>Telemóvel principal</strong>
               <span>(11) 95690-43665</span>
             </a>
             <a href="tel:+5511975443831">
-              <strong>Telefone secundário</strong>
+              <strong>Telemóvel secundário</strong>
               <span>(11) 97544-3831</span>
+            </a>
+            <a
+              href="https://github.com/Woudson"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <strong>GitHub</strong>
+              <span>github.com/Woudson</span>
             </a>
           </div>
         </section>

@@ -215,6 +215,21 @@ h2 {
   font-weight: 600;
 }
 
+.panel h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 1.6rem 0 0.5rem;
+}
+
+.panel h3 + ul {
+  margin-top: 0;
+}
+
+.panel ul + p {
+  margin-top: 1.6rem;
+}
+
 .panel ul {
   list-style: none;
   display: grid;
